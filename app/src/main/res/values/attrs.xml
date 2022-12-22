@@ -1,0 +1,14 @@
+
+<resources>
+    <declare-styleable name="customView">
+        <attr name="circleColor" format="color" />
+        <attr name="circleLabel" format="string" />
+        <attr name="labelColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="label" format="string" />
+        <attr name="hint" format="string" />
+    </declare-styleable>
+
+</resources>
