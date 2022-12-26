@@ -1,16 +1,19 @@
 <resources>
     <string name="app_name">CustomView</string>
-    <string name="sdt_hint"><i>Nhập số điện thoại</i></string>
-    <string name="sdt_text"><i>Số điện thoại</i></string>
+    <string name="sdt_hint"><i>Nhập email</i></string>
+    <string name="sdt_text"><i>Email</i></string>
     <string name="password_hint"><i>Nhập mật khẩu</i></string>
     <string name="password_text"><i>Mật khẩu</i></string>
+    <string name="name_hint"><i>Nhập tên</i></string>
+    <string name="name_text"><i>Tên của bạn</i></string>
     <string name="btn_login">Đăng nhập</string>
+    <string name="btn_res">Đăng kí</string>
     <string name="content_load">Đang tải . Vui lòng đợi ...  </string>
     <string name="title_home">Trang chủ</string>
     <string name="title_option">Lựa chọn</string>
     <string name="title_profile">Hồ sơ</string>
     <string name="log_out">Đăng xuất</string>
-
+    <string name="text_res">Chưa có tài khoản ? Đăng kí</string>
 
 
 </resources>

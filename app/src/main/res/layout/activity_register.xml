@@ -5,42 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".screen.LoginActivity">
+    tools:context=".screen.RegisterActivity">
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/logo"/>
+        android:id="@+id/go_back_res"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
     <com.sanghm2.customview.customUI.CustomEditText
-        android:id="@+id/edit_phone"
+        android:id="@+id/edit_res_email"
         android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:hint="@string/sdt_hint"
         app:label="@string/sdt_text" />
     <com.sanghm2.customview.customUI.CustomEditText
-        android:id="@+id/edit_pass"
+        android:id="@+id/edit_res_pass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:hint="@string/password_hint"
         app:label="@string/password_text" />
-
-    <TextView
-        android:id="@+id/go_res"
+    <com.sanghm2.customview.customUI.CustomEditText
+        android:id="@+id/edit_res_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:textColor="#2898D5"
-        android:text = "@string/text_res"/>
+        app:hint="@string/name_hint"
+        app:label="@string/name_text" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_login"
+        android:text="@string/btn_res"
         android:textAllCaps="false"
+        android:id="@+id/btn_res"
         android:layout_marginTop="30dp"
-        android:onClick="btnPressed"
         android:backgroundTint="#2898D5"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        />
 
 </LinearLayout>

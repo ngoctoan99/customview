@@ -22,6 +22,7 @@ public class IntroScreen extends AppCompatActivity {
             @Override
             public void run() {
                 startActivity(new Intent(IntroScreen.this , LoginActivity.class));
+                finish();
             }
         },3000);
     }
