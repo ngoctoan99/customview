@@ -15,9 +15,9 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.sanghm2.customview.R;
-import com.sanghm2.customview.screen.fragment.HomeFragment;
-import com.sanghm2.customview.screen.fragment.OptionFragment;
 import com.sanghm2.customview.screen.fragment.ProfileFragment;
+import com.sanghm2.customview.screen.fragment.OptionFragment;
+import com.sanghm2.customview.screen.fragment.HomeFragment;
 
 public class MainActivity extends AppCompatActivity {
 

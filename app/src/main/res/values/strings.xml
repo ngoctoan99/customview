@@ -14,6 +14,12 @@
     <string name="title_profile">Hồ sơ</string>
     <string name="log_out">Đăng xuất</string>
     <string name="text_res">Chưa có tài khoản ? Đăng kí</string>
+    <string name="text_name">Tên của người dùng </string>
+    <string name="text_address">Địa chỉ người dùng </string>
+    <string name="text_age">Tuổi người dùng </string>
+    <string name="exception">:  </string>
+    <string name="null_sub">Unknown</string>
+    <string name="access_text">Xác nhận</string>
 
 
 </resources>

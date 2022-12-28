@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.sanghm2.customview.customUI.CustomEditText
+        android:id="@+id/edit_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:label="Tên của người dùng"
+        app:hint="Nhập tên người dùng">
+    </com.sanghm2.customview.customUI.CustomEditText>
+    <com.sanghm2.customview.customUI.CustomEditText
+        android:id="@+id/edit_userage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:hint="Nhập tuổi người dùng"
+        app:label="Tuổi người dùng">
+    </com.sanghm2.customview.customUI.CustomEditText>
+    <com.sanghm2.customview.customUI.CustomEditText
+        android:id="@+id/edit_useraddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        app:hint="Nhập địa chỉ người dùng"
+        app:label="Địa chỉ người dùng">
+    </com.sanghm2.customview.customUI.CustomEditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_useraddress"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#2898D5"
+        android:text="@string/access_text" />
+
+</RelativeLayout>

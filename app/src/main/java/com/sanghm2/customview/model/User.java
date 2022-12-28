@@ -1,24 +1,17 @@
 package com.sanghm2.customview.model;
 
 public class User {
-    private String email  ;
-    private String uid ;
-    private String name;
+    private String name  ;
+    private Long age ;
+    private String address;
 
-    public String getEmail() {
-        return email;
+    public User() {
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getUid() {
-        return uid;
-    }
-
-    public void setUid(String uid) {
-        this.uid = uid;
+    public User(String name, Long age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
     }
 
     public String getName() {
@@ -27,5 +20,21 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Long getAge() {
+        return age;
+    }
+
+    public void setAge(Long age) {
+        this.age = age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }

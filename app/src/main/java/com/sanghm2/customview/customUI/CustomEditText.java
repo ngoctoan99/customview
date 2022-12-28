@@ -66,4 +66,11 @@ public class CustomEditText extends RelativeLayout {
         editText.setText(text);
     }
 
+    public void setHint(String text){
+        editText.setHint(text+"");
+    }
+    public void setLabel(String text){
+        textView.setText(text+"");
+    }
+
 }

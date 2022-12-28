@@ -54,14 +54,7 @@ public class LoginActivity extends AppCompatActivity {
            String email = edit_phone.getText() ;
            edit_pass.setTextView("");
            edit_phone.setTextView("");
-           final Handler handler = new Handler();
-           handler.postDelayed(new Runnable() {
-               @Override
-               public void run() {
-                   login(email, pass);
-               }
-           }, 2000);
-           dialog = ProgressDialog.show(LoginActivity.this ,"" , getResources().getString(R.string.content_load), true ) ;
+           login(email,pass);
        }else {
            Toast.makeText(this, "Vui lòng nhập đủ dữ liệu", Toast.LENGTH_SHORT).show();
        }
@@ -74,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
         go_res  = findViewById(R.id.go_res) ;
     }
     public void login(String email , String pass ){
-
+        dialog = ProgressDialog.show(LoginActivity.this ,"" , getResources().getString(R.string.content_load), true ) ;
         mAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
